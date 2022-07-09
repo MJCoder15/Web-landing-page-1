@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@300&display=swap');
+header{
+    background: rgb(160, 26, 249);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 90vw;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    height: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 0rem 0.7rem;
+    font-size:1.3rem ;
+    padding: 10px 20px;
+}
+
+.navbar li:hover{
+    border-radius: 10%;
+    cursor: pointer;
+    color:rgb(121, 227, 22) ;
+}
+
+.topleft{
+    width: 50%;
+    /* height: 40vh; */
+}
+
+.topright{
+    width: 50%;
+    /* height: 40vh; */
+}
+
+.section1{
+ background: #a1c181;
+}
+
+#name{
+ font-size:1.3rem ;
+ font-family: 'Ubuntu', sans-serif;
+}
+.banner{
+    /* width: 600px; */
+    width: 40vw;
+    /* min-width: 50vw; */
+    height: 50vh;
+}
+
+.dumbelimg{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+}
+.para{
+    font-size: 1.3rem;
+}
+
+.section2{
+    background-color: #901C48;
+}
+.section2 h1{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin-top: 1.5rem; */
+    margin-bottom:1.5rem ;
+}
+
+.section2 h1 p{
+ font-family: 'Ubuntu', sans-serif;
+ padding-left: 1rem;
+ padding-right: 1rem;
+}
+
+.boxes{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    flex-direction: column;
+    column-gap: 0.5rem;
+    place-items: center;
+    place-content: center;
+    text-align: center;
+
+}
+
+.box{
+    margin: 1rem;
+    border: 2px solid rgb(91, 182, 225);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.box .membership{
+    background-color: grey;
+    border-radius: 8px;
+}
+
+.box span{
+    font-size: 1rem;
+}
+
+.box button{
+    padding: 1rem 8rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color:rgb(61, 5, 112);
+    color: white;
+    border-radius:10px;
+}
+
+.box button:hover{
+    
+    background-color:rgb(112, 9, 209);
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.min-h-screen{
+    max-height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.my-1{
+    margin-top: 1.2rem;
+    margin-bottom:1rem ;
+}
+
+.px-2{
+    padding-left: 1rem ;
+    padding-right:1rem ;
+}
+
+.text-blue{
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 2px solid rgb(104, 24, 64);
+    color: indigo;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    background-image:linear-gradient(to bottom right ,rgb(114, 223, 237),rgb(142, 224, 103),rgba(245, 245, 104, 0.991)) ;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+.btn:hover{
+    background-image:linear-gradient(to bottom right ,rgb(176, 246, 255),rgb(158, 249, 113),rgba(248, 248, 107, 0.991)) ;
+    color: rgb(34, 10, 100);
+    
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
